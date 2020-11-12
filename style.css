@@ -1,0 +1,460 @@
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-top{
+    width: 100%;
+    height: 100%;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.header-text{
+    display: flex;
+    align-items: center;
+}
+
+.icon-sample{
+    font-size: 24px;
+    display: none;
+    z-index: 997;
+}
+
+.display-list{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #F7F9FC;
+}
+
+.second-texts{
+    width: 80.8%;
+    max-width: 350px;
+    margin: 72px auto 0;
+}
+
+.second-one1 p{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.second-one1 a{
+    display: flex;
+    padding-top: 6px;
+    font-size: 27px;
+}
+
+.second-one2{
+    padding-top: 60px;
+}
+
+.second-one2 p{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.job-party{
+    display: flex;
+    padding-top: 6px;
+    font-size: 27px;
+}
+
+.job-sample{
+    margin:25px 0 0;
+}
+
+.job-menu{
+    font-size: 14px;
+    font-weight:bold ;
+}
+
+.job-menu a:hover{
+    font-weight: bold;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.job-menu1{
+    font-size: 14px;
+    font-weight:bold ;
+    margin-top: 15px;
+}
+
+.job-menu1 a{
+    margin-right: 18px;
+}
+.job-menu1 a:hover{
+    font-weight: bold;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.job-menu a{
+    margin-right: 18px;
+}
+
+.second-one3{
+    padding-top: 60px;
+}
+
+.second-one3 p{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.one-reto{
+    display: flex;
+    padding-top: 6px;
+    font-size: 27px;
+}
+
+.about-info{
+    margin:25px 0 0;
+}
+
+.about-info a{
+    font-size: 14px;
+    font-weight:bold;
+    margin-right: 18px;
+}
+
+.about-info a:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+
+.second-one4{
+    margin:25px 0 0;
+}
+
+.second-one4 a{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sub-info a{
+    margin-right: 18px;
+}
+
+.sub-info a:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+
+.sub-info2{
+    margin-top: 15px;
+}
+
+.sub-info2 a{
+    margin-right: 18px;
+}
+
+.sub-info2 a:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.sub-info3{
+    margin-top: 15px;
+}
+
+.sub-info3 a:hover{ 
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.second-one5{
+    margin: 70px 0;
+}
+
+.btn-sub{
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+}
+
+.btn-sub a{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 20px 80px;
+    font-weight: bold;
+    border: 1px solid #333;
+}
+
+.btn-sub :hover{
+    background-color: #FFFFFF;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.7s;
+    border: 1px solid #333;
+}
+
+main{
+    padding-top: 100px;
+}
+
+.message1{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.message2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+}
+
+.header-menu a{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header-menu a:hover{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.job{
+    margin-left: 65px;
+}
+
+.reto{
+    margin-left: 65px;
+}
+
+.entry-btn :hover{
+    background-color: #FFFFFF;
+    color: #333;
+    transition: all 0.7s;
+}
+
+.entry{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border: 1px solid #333;
+    width: 170px;
+    height: 50px;
+    margin-left: 65px;
+    transition: all 0.7s;
+}
+
+.content-img{
+    height: 670px;
+    background-color: black;
+}
+
+.content-text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.word1{
+    padding-top: 150px;
+    letter-spacing: 1.5px;
+    font-size: 28px;
+}
+
+.word2{
+    padding-top:30px;
+    letter-spacing: 1.5px;
+}
+
+.word3{
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+}
+
+.word4{
+    margin: 200px;
+}
+
+.word5{
+    letter-spacing: 1.5px;
+    font-size: 28px;
+    padding: 10px 0 0 ;
+}
+
+.our-message{
+    margin: 100px 50px 100px ;
+    text-align: center;
+    padding: 0 0 50px;
+    opacity: 0;
+    transition: 3s;
+}
+
+.fade_on{
+    opacity: 1;
+    transition: 3s;
+}
+
+.message-title{
+    font-size: 3.2rem;
+    letter-spacing: .08em;
+    line-height: 1.71429em;
+    font-family: Yu Mincho,YuMincho,serif;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.our-message p{
+    line-height: 2em;
+    letter-spacing: .06em;
+    margin-top: 10px;
+}
+
+.top-title{
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 0 0 20px 85px;
+}
+
+.for-contents{
+    background-color: #F7F9FC;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0 60px;
+}
+
+.for-image1 p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.for-image2 p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.for-image3 p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.for-image1{
+    opacity: 90%;
+}
+
+.image-box{
+    transition: 0.7s;
+}
+
+.image-box:hover{
+    opacity: 30%;
+}
+
+
+.contens4{
+    margin: 150px 0;
+}
+
+.c-content{
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sample-img{
+    opacity: 90%;
+    position: absolute;
+}
+
+.btn-text{
+    position: relative;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.charenjer{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.switc-btn{
+    margin-top: 80px;
+    border:1px solid #333 ;
+}
+
+.switc-btn p{
+    padding: 20px 80px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.switc-btn :hover{
+    background-color: #333;
+    color: #FFFFFF;
+    transition: all 0.7s;
+}
+
+.contens5{
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #383838;
+    padding: 0 0 138px 0 ;
+}
+
+.sampple{
+    display: flex;
+    justify-content: space-between;
+    padding: 138px 0 0 0;
+}
+
+.footer-text{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-sub{
+    padding-right: 13px;
+
+}
+
+.footer-sub1{
+    padding: 0 13px;
+}
+.footer-sub2{
+    padding: 0 13px;
+}
+
+.copy-text{
+    font-size: 12px;
+    font-weight: bold;
+}
