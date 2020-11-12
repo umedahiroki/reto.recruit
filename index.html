@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RETO.recruitement</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/0ff4165df8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  </head>
+   <body>
+        <header class="header">
+            <div class="header-top">
+               <div clasS="header-text">
+                   <span class="message1">RETO</span>
+                   <span class="message2">NEW RECRUTMENT</span> 
+                </div>
+                <div class="header-menu">
+                    <a href="#" class="story">ストーリー</a>
+                    <a href="#" class="job">募集職種一覧</a>
+                    <a href="#" class="reto">RETOについて</a>
+                    <div class="entry-btn">
+                        <a href="#" class="entry">エントリー</a>
+                    </div>
+                </div>
+                <div class="icon-sample">
+                    <span class="fa fa-bars menu"></span>
+                </div>
+            </div>
+            <div class="display-list">
+                <div class="second-texts">
+                    <div class="second-one1">
+                        <p>Story</p>
+                        <a href="#">ストーリー</a>
+                    </div>
+                    <div class="second-one2">
+                        <p>Job</p>
+                        <a href="#" class="job-party">職種一覧</a>
+                        <div class="job-sample">
+                            <div class="job-menu">
+                            <a href="#">エンジニア</a>
+                            <a href="#">エンジニア(AIスペシャリスト)</a>
+                            </div>
+                            <div class="job-menu1">
+                            <a href="#">ビジネス</a>
+                            <a href="#">デザイナー</a>
+                            <a href="#">デザイナー（ゲーム）</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-one3">
+                        <p>About RETO</p>
+                        <a href="#" class="one-reto">RETOについて</a>
+                        <div class="about-info">
+                            <a href="#">カルチャー</a>
+                            <a href="#">サービス</a>
+                            <a href="#">メディア</a>
+                            <a href="#">働く人たち</a>
+                        </div>
+                    </div>
+                    <div class="second-one4">
+                        <div class="sub-info">
+                            <a href="#">会社概要</a>
+                            <a href="#">採用情報</a>
+                        </div>
+                        <div class="sub-info2">
+                            <a href="#">プライバシーポリシー</a>
+                            <a href="#">お問い合わせ</a>
+                        </div>
+                        <div class="sub-info3">
+                            <a href="#">ご利用にあたって</a> 
+                        </div>
+                    </div>
+                    <div class="second-one5">
+                        <div class="btn-sub">
+                            <a href="#" class="sub-entry">エントリー</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $('.menu').click(function(){                    
+                    if ($('.menu').hasClass('fal fa-times delete')){
+                        $('.menu').removeClass('fal fa-times delete');
+                        $('.delete').addClass('fa fa-bars menu');
+                        $('.display-list').fadeOut();
+                        $('.list').css('display','none');
+                    
+                    }else{
+                        $('.display-list').fadeIn();
+                        $('.list').css('display','block');
+                        $('.menu').addClass('fal fa-times delete');
+                  }
+                });
+            </script>
+        </header>
+        <main>
+            <div class="contents1">
+                <div class="content-img">
+                    <div class="content-text">
+                       <p class="word1">Anyone who has never made a mistake</p> 
+                       <p class="word5">has never tried anything new</p> 
+                       <p class="word2">失敗したことのない人間というのは</p>
+                       <p class="word3">挑戦をしたことのない人間である</p>
+                       <p class="word4">Albert Einstein</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contens2">
+                <div class="our-message">
+                    <p class="message-title">Stay a challenger </p>
+                    <p class="text-message">私たちは挑戦者であり続けます。</p>
+                    <p class="text-message">なぜなら挑戦無くして成長も成功もあり得ないからです。</p>
+                    <p class="text-message">かの天才、アインシュタインは</p>
+                    <p class="text-message">イノベーションを起こすために1万回挑戦しました。</p>
+                    <p class="text-message">天才ではない私たちが挑戦もせずに</p>
+                    <p class="text-message">何かを得ようなどいかにおこがましいことでしょうか。</p>
+                    <p class="text-message">あなたはどのように想っていますか？</p>
+                    <p class="text-message">もし私たちと同じように想っているなら</p>
+                    <p class="text-message">一緒に挑戦してみませんか？</p>
+                    <p class="text-message">1万回いや、10万回でも挑戦できる環境を用意しています。</p>
+                    <p class="text-message">挑戦と失敗を繰り返し一緒に成長していきましょう。</p>
+                </div>
+                <script>
+                    $(function(){
+                        $(window).scroll(function (){
+                            $('.our-message').each(function(){
+                            var imgPos = $(this).offset().top;
+                            var scroll = $(window).scrollTop();
+                            var windowHeight = $(window).height();
+                            if (scroll > imgPos - windowHeight + windowHeight/5){
+                            $(this).addClass("fade_on");
+                            } else {
+                            $(this).removeClass("fade_on");
+                            }
+                            });
+                          });
+                        });
+                </script>
+            </div>
+            <div class="contents3">
+                    <p class="top-title">RETOについて</p>
+                    <div class="for-contents">
+                        <div class="for-image1">
+                            <p>ストーリーを知る</p>
+                            <a href="#" class="image-box">
+                                <img src="image/adbenture.jpg" alt="" width="300" height="250" class="for-image1">
+                            </a>
+                        </div>
+                        <div class="for-image2">
+                            <p>ビジネスを知る</p>
+                            <a href="#" class="image-box">
+                                <img src="image/bisines.jpg" alt="" width="300" height="250" class="for-image1">
+                            </a>
+                        </div>
+                        <div class="for-image3">
+                            <p>人を知る</p>
+                            <a href="#" class="image-box">
+                                <img src="image/worker.jpeg" alt="" width="300" height="250" class="for-image1">
+                            </a>
+                        </div>
+                    </div>
+            </div>
+            <div class="contens4">
+                <div class="c-content">
+                    <img src="image/white2.jpg" alt="" class="sample-img" width="1040" height="350">
+                    <div class="btn-text">
+                        <p class="charenjer">「挑戦者」、求む。</p>
+                        <div class="switc-btn">
+                            <p>本選考エントリー</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contens5">
+                <div class="sampple">
+                    <div class="footer-text">
+                        <a href="#" class="footer-sub">会社概要</a>
+                        <a href="#" class="footer-sub1">採用情報</a>
+                        <a href="#" class="footer-sub1">プライバシーポリシー</a>
+                        <a href="#" class="footer-sub1">お問い合わせ</a>
+                        <a href="#" class="footer-sub2">ご利用にあたって</a>
+                    </div>
+                    <div class="copy-text">
+                        <p>Copyright RETO Co.,Ltd.ALL rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+  </body>
+</html>
