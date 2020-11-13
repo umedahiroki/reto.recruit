@@ -229,6 +229,9 @@ main{
 .header-menu a:hover{
     font-size: 15px;
     font-weight: bold;
+}
+
+.story:hover{
     opacity: 50%;
     transition: 0.5s;
 }
@@ -237,14 +240,28 @@ main{
     margin-left: 65px;
 }
 
+.job:hover{
+    margin-left: 65px;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
 .reto{
     margin-left: 65px;
 }
 
-.entry-btn :hover{
+.reto:hover{
+    margin-left: 65px;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+
+.entry:hover{
     background-color: #FFFFFF;
-    color: #333;
+    color: black;
     transition: all 0.7s;
+    border: 1px solid #333;
 }
 
 .entry{
