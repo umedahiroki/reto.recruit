@@ -1,7 +1,6 @@
 # 作品紹介
 ### ■ 作品画像
 <img src="https://i.gyazo.com/8c69f23264d4c015b9f5dfdc07fba8e9.png" width="600"><br>
-[公開ページへ行く](https://umedahiroki.github.io/github.io/) 
  
 ### ■ 作品タイトル  
 架空の企業の新卒採用ページ<br>
